@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:focusable="true"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="1dp"
+    android:paddingBottom="1dp"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:weightSum="9"
+    android:orientation="horizontal">
+    >
+
+    <TextView
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:background="#1a80b6"
+        android:id="@+id/tvidWord"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <ImageView
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#9bff89"
+        android:src="@drawable/btn_check_buttonless_on"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:background="#9bff89"
+        android:id="@+id/tvidCorrectCount"
+        android:gravity="right"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:background="#9bff89"
+        android:id="@+id/tvidCorrectCombo"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <ImageView
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ff9c89"
+        android:src="@drawable/ic_delete"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:background="#ff9c89"
+        android:id="@+id/tvidWrongCount"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:layout_width="0dip"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:background="#1a80b6"
+        android:gravity="center"
+        android:id="@+id/tvidCorrectRate"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:layout_width="0dip"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:background="#9bff89"
+        android:id="@+id/tvidLastCorrectDate"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+
+</LinearLayout>

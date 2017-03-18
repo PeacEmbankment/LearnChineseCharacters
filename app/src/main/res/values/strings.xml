@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">肥龜識字王</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1979412351218403/3552302176</string>
+    <string name="title_activity_learning__summary">Learning_Summary</string>
+    <string name="title_activity_learning__summary_with__recycler_view">
+        Learning_Summary_with_RecyclerView
+    </string>
+</resources>
